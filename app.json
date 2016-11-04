@@ -1,5 +1,5 @@
 {
-  "name": "Rocket.Chat",
+  "name": "slainteserver",
   "description": "Have your own open-source Slack-like online chat platform.",
   "repository": "https://github.com/RocketChat/Rocket.Chat",
   "logo": "https://raw.githubusercontent.com/RocketChat/Rocket.Chat/master/public/images/logo/512x512.png?v=3",
@@ -7,8 +7,8 @@
   "website": "https://rocket.chat",
   "env": {
     "BUILDPACK_URL": "https://github.com/RocketChat/heroku-buildpack-meteor.git",
-    "HEROKU_APP_NAME": {
-      "description": "Please re-enter your App Name from the top.",
+    "slainteserver": {
+      "description": "app name ",
       "required": true
     }
   },
